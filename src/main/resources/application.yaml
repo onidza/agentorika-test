@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: agentorika
+
+providers:
+  file-path: ./config/providers.json

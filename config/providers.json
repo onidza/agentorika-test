@@ -1,0 +1,12 @@
+[
+  {
+    "id": "provider-1",
+    "url": "https://api.provider1.com",
+    "apiKey": "key-1"
+  },
+  {
+    "id": "provider-2",
+    "url": "https://api.provider2.com",
+    "apiKey": "key-2"
+  }
+]
