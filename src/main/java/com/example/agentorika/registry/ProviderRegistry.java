@@ -1,6 +1,7 @@
-package com.example.agentorika.service;
+package com.example.agentorika.registry;
 
 import com.example.agentorika.dto.ProviderDto;
+import com.example.agentorika.util.ProviderConfigJsonReader;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;

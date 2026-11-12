@@ -1,6 +1,7 @@
 package com.example.agentorika.service;
 
 import com.example.agentorika.dto.ProviderDto;
+import com.example.agentorika.registry.ProviderRegistry;
 import com.example.agentorika.rest.ProviderHttpClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

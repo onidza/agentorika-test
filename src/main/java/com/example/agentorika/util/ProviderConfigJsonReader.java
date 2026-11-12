@@ -1,4 +1,4 @@
-package com.example.agentorika.service;
+package com.example.agentorika.util;
 
 import com.example.agentorika.dto.ProviderDto;
 import java.nio.file.Path;
@@ -21,7 +21,7 @@ public class ProviderConfigJsonReader {
     try {
       return objectMapper.readValue(
           path.toFile(),
-          new TypeReference<List<ProviderDto>>() {}
+          new TypeReference<>() {}
       );
     } catch (JacksonException e) {
       log.warn("Could not read provider config file {}", path, e);

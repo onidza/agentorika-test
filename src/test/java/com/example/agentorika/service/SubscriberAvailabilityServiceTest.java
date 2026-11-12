@@ -11,6 +11,7 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
 import com.example.agentorika.dto.ProviderDto;
+import com.example.agentorika.registry.ProviderRegistry;
 import com.example.agentorika.rest.ProviderHttpClient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
